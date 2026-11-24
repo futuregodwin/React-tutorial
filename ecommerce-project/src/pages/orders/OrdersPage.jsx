@@ -3,7 +3,7 @@ import { useState, useEffect, Fragment } from "react";
 import { Link } from "react-router";
 import { Header } from "../../components/Header";
 import "./OrdersPage.css";
-import BuyAgainIcon from "../assets/images/icons/buy-again.png";
+import BuyAgainIcon from "../../assets/images/icons/buy-again.png";
 import dayjs from "dayjs";
 import { formatMoney } from "../../utils/money";
 
